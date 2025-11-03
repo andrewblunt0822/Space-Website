@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starmap - Space Website</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mediaq.css">
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <a href="index.html" class="logo" ><i class="fa-solid fa-shuttle-space"></i> Space.co</a>
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars menu-icon-open" ></i>
+            <i class="fa-solid fa-xmark menu-icon-close hidden"></i>
+        </button>
+        <ul class="navbar-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="manifest.html">Manifest</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="fixed-star-background"></div>
+
+    <header class="starmap-hero" id="star-field">
+        <div class="starmap-hero-content">
+            <h1>The Celestial Navigator</h1>
+            <p class="subtitle">Real-time star charts and deep space flight paths.</p>
+        </div>
+    </header>
+    <section id="starmap-display" class="space-section starmap-section">
+        <div class="section-container">
+            <h3>Odyssey Mission Tracking</h3>
+            <p class="section-intro">
+                Follow the *Odyssey* Explorer on its 7.5-year journey to the Saturnian System, plotted against the backdrop of the Milky Way.
+            </p>
+
+            <div class="map-container">
+                <div class="starmap-placeholder">
+                    <p>Interactive Starmap Loading...</p>
+                    <div class="map-feature-list">
+                        <span><i class="fa-solid fa-satellite"></i> Jupiter Gravity Assist Point</span>
+                        <span><i class="fa-solid fa-ring"></i> Saturn Orbit Insertion Zone</span>
+                        <span><i class="fa-solid fa-globe"></i> Kepler 186f (Reference)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-details">
+                <div class="detail-block">
+                    <h4>Current Velocity</h4>
+                    <p class="data-point">15,000 km/s</p>
+                </div>
+                <div class="detail-block">
+                    <h4>Distance from Sol</h4>
+                    <p class="data-point">9.8 AU</p>
+                </div>
+                <div class="detail-block">
+                    <h4>Next Milestone</h4>
+                    <p class="data-point">Heliopause Crossing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo"><i class="fa-solid fa-shuttle-space"></i> Space Co.</a>
+                <p class="copyright">&copy; 2025 Space Co. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="mission.html">Mission</a></li>
+                    <li><a href="manifest.html">Manifest</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="starmap.html">Starmap</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Connect</h4>
+                <p>Ready for liftoff?</p>
+                <a href="contact.html" class="cta-button secondary-cta">Contact Us</a>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
